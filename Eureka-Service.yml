@@ -4,7 +4,10 @@ server:
 spring:
   application:
     name: Eureka-Service
-  
+  datasource:
+    tomcat: 
+      initial-size: 1
+      
 eureka:
   client:
     register-with-eureka: false
