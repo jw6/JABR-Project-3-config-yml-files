@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: board-service
+    name: board-manager-service
   datasource:
     tomcat: 
       initial-size: 1
