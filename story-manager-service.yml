@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: Story-Service
+    name: story-manager-service
   datasource:
     tomcat: 
       initial-size: 1
