@@ -25,6 +25,9 @@ spring:
       bindings:
         output:
           contentType: application/json
+  integration:
+    readOnly:
+      headers: contentType
       
 eureka:
   client:
