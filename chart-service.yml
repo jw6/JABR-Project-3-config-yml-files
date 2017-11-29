@@ -26,7 +26,10 @@ spring:
         input:
           destination: storymessage
           contentType: application/json
-      
+  integration:
+    readOnly:
+      headers: contentType
+
 eureka:
   client:
     register-with-eureka: true
