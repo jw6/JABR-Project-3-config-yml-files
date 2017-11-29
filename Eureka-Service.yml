@@ -6,7 +6,7 @@ spring:
     name: Eureka-Service
   datasource:
     tomcat: 
-      initial-size: 3
+      initial-size: 1
       
 eureka:
   client:
