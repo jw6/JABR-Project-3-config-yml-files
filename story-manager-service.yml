@@ -35,5 +35,5 @@ eureka:
     fetch-registry: true
     healthcheck:
       enabled: true
-    serviceUrl:
-      defaultZone: http://18.221.160.13:8761/eureka
+#    serviceUrl:
+#      defaultZone: http://18.221.160.13:8761/eureka
