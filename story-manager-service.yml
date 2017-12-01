@@ -15,11 +15,6 @@ spring:
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.Oracle10gDialect
-  rabbitmq:
-    host: localhost
-    password: guest
-    username: guest
-    port: 5672
 #  cloud:
 #    stream:
 #      bindings:
