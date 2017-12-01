@@ -24,7 +24,7 @@ spring:
     stream:
       bindings:
         input:
-          destination: storymessage
+          destination: boardmessage
           contentType: application/json
   integration:
     readOnly:
