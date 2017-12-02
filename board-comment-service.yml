@@ -20,5 +20,10 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
+    serviceUrl:
+      defaultZone: http://${DOCKER_HOST_IP}:8761/eureka/
+  instance:
+    instanceId: ${spring.application.name}
+    hostname: ${DOCKER_HOST_IP}:${server.port}
 #    serviceUrl:
 #      defaultZone: http://18.221.160.13:8761/eureka
