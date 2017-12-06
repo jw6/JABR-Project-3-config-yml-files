@@ -17,5 +17,5 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-#    serviceUrl:
-#      defaultZone: http://${DOCKER_HOST_IP}:8761/eureka
+    serviceUrl:
+      defaultZone: http://${DOCKER_HOST_IP}:8761/eureka
