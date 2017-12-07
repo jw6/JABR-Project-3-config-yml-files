@@ -27,3 +27,11 @@ eureka:
 #  instance:
 #    instanceId: ${spring.application.name}
 #    hostname: ${DOCKER_HOST_IP}:${server.port}
+
+security:
+ oauth2:
+   resource:
+     accessTokenUri: http://localhost:8765/user-service/oauth/check_token
+     userAuthorizationUri: http://localhost:8765/user-service/oauth/authorize
+     jwt:
+       keyUri: http://localhost:8765/user-service/oauth/token_key
