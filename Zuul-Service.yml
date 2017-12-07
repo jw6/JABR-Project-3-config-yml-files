@@ -25,7 +25,7 @@ zuul:
   routes:
     userservice:
       path: /user-service/**
-      sensitiveHeaders:
+      sensitiveHeaders: Cookie,Set-Cookie
       serviceId: user-service
     storyservice:
       path: /story-manager-service/**
@@ -33,7 +33,7 @@ zuul:
       serviceId: story-manager-service
     boardmanagerservice:
       path: /board-manager-service/**
-      sensitiveHeaders:
+      sensitiveHeaders: Cookie,Set-Cookie
       serviceId: board-manager-service
     taskservice:
       path: /task-manager-service/**
@@ -49,5 +49,5 @@ zuul:
       serviceId: board-comment-service
     route:
       path: /routes/**
-      sensitiveHeaders:
+      sensitiveHeaders: Cookie,Set-Cookie
       serviceId: Zuul-Service
