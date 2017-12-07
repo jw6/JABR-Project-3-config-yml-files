@@ -19,7 +19,7 @@ spring:
     dispatchOptionsRequest: true 
 
 keystore:
- password: mySecretKey
+  password: mySecretKey
     
 eureka:
   client:
