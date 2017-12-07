@@ -47,6 +47,6 @@ zuul:
       sensitiveHeaders:
       serviceId: board-comment-service
     route:
-      path: /routes/**
+      path: /routes
       sensitiveHeaders:
       serviceId: Zuul-Service
