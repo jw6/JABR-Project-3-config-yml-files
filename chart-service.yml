@@ -30,6 +30,9 @@ spring:
     readOnly:
       headers: contentType
 
+rest-template-urls:
+  story-service: story-manager-service
+
 eureka:
   client:
     register-with-eureka: true
