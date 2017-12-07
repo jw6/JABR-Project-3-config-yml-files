@@ -18,6 +18,9 @@ spring:
     database-platform: org.hibernate.dialect.Oracle10gDialect
   mvc:
     dispatchOptionsRequest: true 
+
+keystore:
+ password: mySecretKey
       
 eureka:
   client:
