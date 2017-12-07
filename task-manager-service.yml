@@ -16,14 +16,6 @@ spring:
       ddl-auto: update
     database-platform: org.hibernate.dialect.Oracle10gDialect
 
-security:
-  oauth2:
-   resource:
-     accessTokenUri: http://localhost:8765/user-service/oauth/check_token
-     userAuthorizationUri: http://localhost:8765/user-service/oauth/authorize
-     jwt:
-       keyUri: http://localhost:8765/user-service/oauth/token_key
-
 eureka:
   client:
     register-with-eureka: true
