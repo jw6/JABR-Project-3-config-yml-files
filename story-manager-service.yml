@@ -31,7 +31,7 @@ eureka:
 security:
  oauth2:
    resource:
-     accessTokenUri: http://localhost:8765/user-service/oauth/check_token
-     userAuthorizationUri: http://localhost:8765/user-service/oauth/authorize
+     accessTokenUri: http://13.59.67.21:8765/user-service/oauth/check_token
+     userAuthorizationUri: http://13.59.67.21:8765/user-service/oauth/authorize
      jwt:
-       keyUri: http://localhost:8765/user-service/oauth/token_key
+       keyUri: http://13.59.67.21:8765/user-service/oauth/token_key
