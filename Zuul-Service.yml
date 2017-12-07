@@ -21,6 +21,8 @@ eureka:
       defaultZone: http://13.59.67.21:8761/eureka
       
 zuul:
+  ignoredHeaders:
+    - authorization
   ignored-services: "*"
   routes:
     userservice:
