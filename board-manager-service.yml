@@ -20,8 +20,6 @@ spring:
     password: guest
     username: guest
     port: 5672
-  mvc:
-    dispatchOptionsRequest: true
       
 eureka:
   client:
