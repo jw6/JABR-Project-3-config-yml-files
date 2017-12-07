@@ -15,7 +15,12 @@ spring:
     hibernate:
       ddl-auto: none
     database-platform: org.hibernate.dialect.Oracle10gDialect
-      
+  mvc:
+    dispatchOptionsRequest: true 
+
+keystore:
+ password: mySecretKey
+    
 eureka:
   client:
     register-with-eureka: true
