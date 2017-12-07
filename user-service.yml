@@ -16,6 +16,8 @@ spring:
     hibernate:
       ddl-auto: none
     database-platform: org.hibernate.dialect.Oracle10gDialect
+  mvc:
+    dispatchOptionsRequest: true 
       
 eureka:
   client:
